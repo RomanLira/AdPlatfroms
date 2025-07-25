@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\AdPlatforms.DomainModel\AdPlatforms.DomainModel.csproj" />
+      <ProjectReference Include="..\AdPlatforms.Infrastructure.Interfaces\AdPlatforms.Infrastructure.Interfaces.csproj" />
+    </ItemGroup>
+
+</Project>
